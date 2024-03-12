@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "chto-podarit-malchiku-na-6-let-podarki-dlya-sportivnyh-i-tvorcheskih-detej-95.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

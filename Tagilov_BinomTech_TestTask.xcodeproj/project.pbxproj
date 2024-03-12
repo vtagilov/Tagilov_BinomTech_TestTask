@@ -9,21 +9,32 @@
 /* Begin PBXBuildFile section */
 		E767CAA82B9A370500865084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767CAA72B9A370500865084 /* AppDelegate.swift */; };
 		E767CAAA2B9A370500865084 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767CAA92B9A370500865084 /* SceneDelegate.swift */; };
-		E767CAAC2B9A370500865084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767CAAB2B9A370500865084 /* ViewController.swift */; };
-		E767CAAF2B9A370500865084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E767CAAD2B9A370500865084 /* Main.storyboard */; };
+		E767CAAC2B9A370500865084 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767CAAB2B9A370500865084 /* MainViewController.swift */; };
 		E767CAB12B9A370800865084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E767CAB02B9A370800865084 /* Assets.xcassets */; };
 		E767CAB42B9A370800865084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E767CAB22B9A370800865084 /* LaunchScreen.storyboard */; };
+		E767CAD42B9F664900865084 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = E767CAD32B9F664900865084 /* MapboxMaps */; };
+		E767CADF2BA09E8400865084 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767CADE2BA09E8400865084 /* UserInfoView.swift */; };
+		E767CAE12BA09EAC00865084 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767CAE02BA09EAC00865084 /* UserModel.swift */; };
+		E767CAE62BA09FFA00865084 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767CAE52BA09FFA00865084 /* UILabel.swift */; };
+		E767CAE82BA0A10600865084 /* UIIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767CAE72BA0A10600865084 /* UIIImageView.swift */; };
+		E767CAEA2BA0A29900865084 /* HistoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767CAE92BA0A29900865084 /* HistoryButton.swift */; };
+		E767CAEC2BA0BE6500865084 /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767CAEB2BA0BE6500865084 /* CustomAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E767CAA42B9A370500865084 /* Tagilov_BinomTech_TestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tagilov_BinomTech_TestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E767CAA72B9A370500865084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E767CAA92B9A370500865084 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E767CAAB2B9A370500865084 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E767CAAE2B9A370500865084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E767CAAB2B9A370500865084 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E767CAB02B9A370800865084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E767CAB32B9A370800865084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E767CAB52B9A370800865084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E767CADE2BA09E8400865084 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		E767CAE02BA09EAC00865084 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		E767CAE52BA09FFA00865084 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		E767CAE72BA0A10600865084 /* UIIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIIImageView.swift; sourceTree = "<group>"; };
+		E767CAE92BA0A29900865084 /* HistoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryButton.swift; sourceTree = "<group>"; };
+		E767CAEB2BA0BE6500865084 /* CustomAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E767CAD42B9F664900865084 /* MapboxMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +68,60 @@
 		E767CAA62B9A370500865084 /* Tagilov_BinomTech_TestTask */ = {
 			isa = PBXGroup;
 			children = (
+				E767CAD52B9F678D00865084 /* Model */,
+				E767CAD62B9F679100865084 /* View */,
+				E767CAD72B9F679500865084 /* Controller */,
+				E767CAE22BA09FD100865084 /* Utility */,
 				E767CAA72B9A370500865084 /* AppDelegate.swift */,
 				E767CAA92B9A370500865084 /* SceneDelegate.swift */,
-				E767CAAB2B9A370500865084 /* ViewController.swift */,
-				E767CAAD2B9A370500865084 /* Main.storyboard */,
 				E767CAB02B9A370800865084 /* Assets.xcassets */,
 				E767CAB22B9A370800865084 /* LaunchScreen.storyboard */,
 				E767CAB52B9A370800865084 /* Info.plist */,
 			);
 			path = Tagilov_BinomTech_TestTask;
+			sourceTree = "<group>";
+		};
+		E767CAD52B9F678D00865084 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E767CAE02BA09EAC00865084 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E767CAD62B9F679100865084 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E767CADE2BA09E8400865084 /* UserInfoView.swift */,
+				E767CAE92BA0A29900865084 /* HistoryButton.swift */,
+				E767CAEB2BA0BE6500865084 /* CustomAnnotationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E767CAD72B9F679500865084 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E767CAAB2B9A370500865084 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E767CAE22BA09FD100865084 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E767CAE42BA09FEA00865084 /* Extensions */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E767CAE42BA09FEA00865084 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E767CAE52BA09FFA00865084 /* UILabel.swift */,
+				E767CAE72BA0A10600865084 /* UIIImageView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +140,9 @@
 			dependencies = (
 			);
 			name = Tagilov_BinomTech_TestTask;
+			packageProductDependencies = (
+				E767CAD32B9F664900865084 /* MapboxMaps */,
+			);
 			productName = Tagilov_BinomTech_TestTask;
 			productReference = E767CAA42B9A370500865084 /* Tagilov_BinomTech_TestTask.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +171,9 @@
 				Base,
 			);
 			mainGroup = E767CA9B2B9A370500865084;
+			packageReferences = (
+				E767CAD22B9F664900865084 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+			);
 			productRefGroup = E767CAA52B9A370500865084 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +190,6 @@
 			files = (
 				E767CAB42B9A370800865084 /* LaunchScreen.storyboard in Resources */,
 				E767CAB12B9A370800865084 /* Assets.xcassets in Resources */,
-				E767CAAF2B9A370500865084 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +200,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E767CAAC2B9A370500865084 /* ViewController.swift in Sources */,
+				E767CAE12BA09EAC00865084 /* UserModel.swift in Sources */,
+				E767CAAC2B9A370500865084 /* MainViewController.swift in Sources */,
+				E767CAE82BA0A10600865084 /* UIIImageView.swift in Sources */,
+				E767CAEC2BA0BE6500865084 /* CustomAnnotationView.swift in Sources */,
+				E767CADF2BA09E8400865084 /* UserInfoView.swift in Sources */,
+				E767CAEA2BA0A29900865084 /* HistoryButton.swift in Sources */,
 				E767CAA82B9A370500865084 /* AppDelegate.swift in Sources */,
+				E767CAE62BA09FFA00865084 /* UILabel.swift in Sources */,
 				E767CAAA2B9A370500865084 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +215,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E767CAAD2B9A370500865084 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E767CAAE2B9A370500865084 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E767CAB22B9A370800865084 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -295,11 +355,12 @@
 				DEVELOPMENT_TEAM = KY758VGLM7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Tagilov_BinomTech_TestTask/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your precise location is used to calculate turn-by-turn directions, show your location on the map, and help improve the map";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,11 +384,12 @@
 				DEVELOPMENT_TEAM = KY758VGLM7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Tagilov_BinomTech_TestTask/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your precise location is used to calculate turn-by-turn directions, show your location on the map, and help improve the map";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +425,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E767CAD22B9F664900865084 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E767CAD32B9F664900865084 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E767CAD22B9F664900865084 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E767CA9C2B9A370500865084 /* Project object */;
 }
