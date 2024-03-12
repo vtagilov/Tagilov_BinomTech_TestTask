@@ -80,6 +80,8 @@ final class MainViewController: UIViewController {
         
         plusButton.addTarget(self, action: #selector(zoomAction), for: .touchUpInside)
         plusButton.setImage(UIImage(named: "PlusButton"), for: .normal)
+        
+        trackButton.setImage(UIImage(named: "TrackerButton"), for: .normal)
     }
     
     func addAnnotationToMap(model: UserModel, location: CLLocationCoordinate2D) {
@@ -146,14 +148,14 @@ extension MainViewController: GestureManagerDelegate {
 extension MainViewController {
     private func configureConstraints() {
         let buttonWidth = 64.0
-        let verticalOffset = 8.0
+        let verticalOffset = 4.0
         let userInfoViewHeight = 200.0
         for subview in [trackingButton, minusButton, plusButton, userInfoView, trackButton] {
             subview.translatesAutoresizingMaskIntoConstraints = false
             view.addSubview(subview)
         }
         NSLayoutConstraint.activate([
-            plusButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            plusButton.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -buttonWidth),
             plusButton.rightAnchor.constraint(equalTo: view.rightAnchor),
             plusButton.widthAnchor.constraint(equalTo: plusButton.heightAnchor),
             plusButton.widthAnchor.constraint(equalToConstant: buttonWidth),
